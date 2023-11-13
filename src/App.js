@@ -11,15 +11,11 @@ function App() {
     .then ((data) => setUsers(data));
 }, []);
 
-
   return (
     <div className="App">
   <header className="App-header">
   <div id="img-div" class="image-housing">
-    <p></p>
-    <img id="image" class="center" src="C:\Users\billj\OneDrive\Pictures\Zoom.jfif" alt="Troy Baker and His Many Roles"></img>
     <div id="img-caption">
-    <p></p>
   </div>
   </div>
   <h1>Users</h1>
