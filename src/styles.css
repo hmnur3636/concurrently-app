@@ -1,0 +1,43 @@
+*,::before,
+*::after {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1A4E11;
+} */
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: rgb(56, 68, 59);
+    padding: 10px;
+    border-radius: 5px;
+    top: -500px;
+}
+
+.btn-grid {
+    display: grid;
+    margin-top: 20px;
+    gap: 3px;
+}
+
+.btn {
+    border-color: hsl(60, 80%, 47%, 0.692);
+    border: 1px solid hsl(60, 80%, 47%, 0.692);
+    border-radius: 5px;
+    padding: 5px 10px;
+
+}
+
+.btn:hover{
+border-color: black;
+}
