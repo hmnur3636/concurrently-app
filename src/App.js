@@ -43,10 +43,11 @@ main
         <button type="button" class="btn btn-option3">Option 3</button>
         <button type="button" class="btn btn-option4">Option 4</button>
         </div>
-
+        </div>
   </header>
-    </div>
+  </div>
     )
+    
 };
 
 
