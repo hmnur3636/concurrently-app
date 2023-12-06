@@ -15,14 +15,15 @@ function App() {
     
     <div className="App">
       
-  <header className="App-header">
+  <main className="App-header">
+  <h2>Developing Dungeon</h2>
+    <div className="Background-Screen">
   <div id="img-div" class="image-housing">
-main
-    <h1>Game Name</h1>
     <img id="image" class="center" 
     src="https://drive.google.com/uc?
     export=view&id=1bDdoLrKDvqQ8q3-mUG8ke1UQgH88D0FO"
      alt="Dungeon room 1"></img>
+  </div>
   </div>
   <div class="container">
         <div id="text">
@@ -44,7 +45,7 @@ main
         <button type="button" class="btn btn-option4">Option 4</button>
         </div>
         </div>
-  </header>
+  </main>
   </div>
     )
     
