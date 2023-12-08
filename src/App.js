@@ -14,9 +14,9 @@ function App() {
   return (
     
     <div className="App">
-      
+    <div className ="head"><h2>Developing Dungeon</h2></div>
   <main className="App-header">
-  <h2>Developing Dungeon</h2>
+
     <div className="Background-Screen">
   <div id="img-div" class="image-housing">
     <img id="image" class="center" 
