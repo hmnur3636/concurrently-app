@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   max-height: 1vh;
+  background-color: black;
 }
 img{
   height: 400px;
@@ -41,10 +42,15 @@ background-color: black;
 
 .container {
 
+    min-width: 70%;
     max-width: 70%;
     background-color: rgb(56, 68, 59);
     border-radius: 7px;
     padding-top: 10px;
+    overflow-y: auto;
+    margin-top: 7px;
+    max-height: 162.5px;
+    min-height: 162.5px;
 }
 
 .btn-grid {
