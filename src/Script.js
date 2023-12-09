@@ -114,7 +114,7 @@ choices: [
 
 {
   id: 9,
-  text: 'The rusty leaver creaks as you pull it, to your right the gateway swings wide, but already seems to be closing. What Do you Do?',
+  text: 'The rusty leaver creaks as you pull it, to your right the lifts open, but already seems to be closing. What Do you Do?',
   image: 'https://drive.google.com/uc?export=view&id=1flTub35yMfrU7nFv20LZOsp17tFubXgd', 
   choices: [
     { text: 'Open The Chest', nextId: 8 },
@@ -127,7 +127,7 @@ choices: [
 
   {
     id: 10,
-    text: 'You duck under the portcullis and the points of it poke you wanting to hurt you. For a second you think the dungeon might be trying to kill you, but that is silly magic does not exist and neither do dungeons that are alive. You walk out on the other side, your eyes adjusting in the light as the brightness overwhelms you. It feels smothering and you want to flee, but you get used to it as your eyes adjust. To your right a stairway leads up while a stairway going down is on the left. Which path will you choose?',
+    text: 'You duck under the portcullis and the points of it poke you wanting to hurt you. For a second you think the dungeon might be trying to kill you, but that is silly magic does not exist and neither do dungeons that are alive. You walk out on the other side as the portcullis shuts behind you, your eyes adjusting in the light as the brightness overwhelms you. It feels smothering and you want to flee, but you get used to it as your eyes adjust. To your right a stairway leads up while a stairway going down is on the left. Which path will you choose?',
     image: 'https://drive.google.com/uc?export=view&id=1qUZv3VSWv0SzrgTJtDGCoDo7BnVYG4qL', 
     choices: [
       { text: 'Go left', nextId: 25 },
@@ -149,12 +149,93 @@ choices: [
 
   {
     id: 12,
-    text: '*Note Text Here*',
+    text: 'You walk down the right path and the floor beneath you gets steeper. This must be the way out you think hopefully, but you cant be entirely sure. You arrive in a small room with some bones of animals from outside. You see a small bone on the ground that is decently sharp. It could be a good weapon or lock pick you think, might be a useful thing to have. You see a shiny stone on the ground that could make a good tool for distraction later you think. On the wall just bare cobblestones you notice a bright picture frame with another note inside it. You could read the note as it is strange. The note gleams in the light with new fresh paper and the black ink glistens with the note. Reading the note might be a good idea, but you just don’t feel like that is a good option. What will you do?',
     image: 'https://drive.google.com/uc?export=view&id=1QqH_5y6-4wuno5pyfbvC5glhuzHS6iVz', 
+    choices: [
+      { text: 'Keep Going', nextId: 16 },
+      { text: 'Grab the Bone', nextId: 15 },
+      { text: 'Check the Note in the Picture Frame', nextId: 13 },
+  ]
+  },
+
+  {
+    id: 13,
+    text: 'Inside the strangely intact picture frame you make out the writing on the note."Why did you go down the right path? After all I told you really! You probably never read the other notes did you? Well it is fine you are reading this so I still have a chance to show you the right way. I am an explorer who got trapped in here by going down the path you are on right now. I could not turn left once I went down this path, so please don’t make my mistake. I impart this knowledge to you, intrepid adventurer, so you may be free and get to see the sun and sky again."',
+    image: 'https://drive.google.com/uc?export=view&id=1QqH_5y6-4wuno5pyfbvC5glhuzHS6iVz', 
+    choices: [
+      { text: 'Keep Going', nextId: 16 },
+      { text: 'Grab the Bone', nextId: 15 },
+      { text: 'Listen To The Note And Head Back', nextId: 14 },
+  ]
+  },
+
+  {
+    id: 14,
+    text: 'You decide to listen to the note, after all, whoever left it probably knows better than you.',
+    image: 'https://drive.google.com/uc?export=view&id=1qUZv3VSWv0SzrgTJtDGCoDo7BnVYG4qL', 
     choices: [
       { text: 'Go left', nextId: 25 },
       { text: 'Go Right', nextId: 12 },
-      { text: 'Let Me Read This Note One More Time', nextId: 11 },
+      { text: 'Let me read This Note Real Quick', nextId: 11 },
+  ]
+  },
+
+  {
+    id: 15,
+    text: 'You reach down to grab the sharp bone. As you do your hand phases through the object. You decide that its probably a hallucination from dehydration',
+    image: 'https://drive.google.com/uc?export=view&id=1QqH_5y6-4wuno5pyfbvC5glhuzHS6iVz', 
+    choices: [
+      { text: 'Keep Going', nextId: 16 },
+      { text: 'Let me read This Note Real Quick', nextId: 13 },
+  ]
+  },
+
+  {
+    id: 16,
+    text: 'You follow along the path climbing higher and higher. It feels like you are getting out of the dungeon but it could still be a trap. You come to a bare room with some rubble on the ground. An old chain on the floor broken, but you might be able to use it. You see another note on the wall just like in the room before. You see a skull on the ground probably from another adventure who did not make it. Some bones are on top of the framed note which is still new and fresh just like all the other ones. You could read it, but you feel like you are close to escaping. The note could contain some valuable information though. What will you do?',
+    image: 'https://drive.google.com/uc?export=view&id=1Nh59SrU7T9KT5OkjCeseBRD6Ld-d_ael', 
+    choices: [
+      { text: 'Check the Note', nextId: 17 },
+      { text: 'Keep On Climbing', nextId: 19 },
+      { text: 'Go Back', nextId: 18}
+  ]
+  },
+
+  {
+    id: 17,
+    text: 'The note is scrawled in messy handwriting, almost like it was written in a hurry. "You are way too close now. Your doom lies before you in fact in the next room. You should have gone left. That was your only way out of this place. You made the same mistake I did and you will sadly soon be joining me. I am only telling you this for your benefit so you can escape too. Please head my warnings but if you insist on going this way I will not stop you. I will remind you, you have chose poorly and I can not express my disappointment. Why did you not listen to me? I was trying to help you, to guide you, to help you succeed where I failed. Fine I guess it does not matter as you have free will, but you should have followed my advice. CERTAIN DOOM AWAITS YOU. DO NOT CONTINUE DOWN THIS PATH!!! "',
+    image: 'https://drive.google.com/uc?export=view&id=1Nh59SrU7T9KT5OkjCeseBRD6Ld-d_ael', 
+    choices: [
+      { text: 'Keep On Climbing', nextId: 19 },
+      { text: ' Listen To The Note, Go Back', nextId: 18}
+  ]
+  },
+
+  {
+    id: 18,
+    text: 'You finally listen to the notes, you turn around and head back where you came from.',
+    image: 'https://drive.google.com/uc?export=view&id=1QqH_5y6-4wuno5pyfbvC5glhuzHS6iVz', 
+    choices: [
+      { text: 'Keep On Climbing', nextId: 16 },
+      { text: 'Keep Going Back', nextId: 14}
+  ]
+  },
+
+  {
+    id: 19,
+    text: 'You walk into the hallway of the next room. A hall awaits you. You climb up a steep slope for what feels like eternity and then you see cool blue light shining through the top of the hole. Just a little bit more and you are there! You made it out! You see a book below you and you decide to read it. It tells you that the dungeon is cursed and it will trap anyone who sails too close to it. The only way to subdue the curse is to stay in the duenon and sacrifice yourself. That does not matter to you as you are glad to feel the fresh air. You see your wrecked ship scattered across the shore. There is enough that you could repair it with time and eventually sail back home. A few days later you sail away on your repaired boat and make it home. The End. ',
+    image: 'https://drive.google.com/uc?export=view&id=1C8kuFy1OEiXIxCfWc3xoNYTM-ZzE2aOD', 
+    choices: [
+      { text: 'Continue', nextId: 20}
+  ]
+  },
+
+  {
+    id: 20,
+    text: 'Thank you For Playing Our Game! Hopefully You Did Better Than We Did On Our Grade On This Project.',
+    image: 'https://drive.google.com/uc?export=view&id=13TKTA7XXmHDSG6B7J5Rwy7_Y_oc4Kmwx', 
+    choices: [
+      { text: 'Play Again?', nextId: 0}
   ]
   },
 
