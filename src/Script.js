@@ -49,7 +49,7 @@ export const scenarios = [
 
 {
   id: 4,
-  text: 'You arrive in a brightly lit room. The high wall in front of you is decorated only by a single window. A torch is hung on the wall still burning bright. You could take that with you and it would help you follow the path should it go dark. You see an old chest the lock is so warn you can easily open it. It might be worth looking at what is inside. Chests always have good loot after all. You see a lever that you could pull, but it might set off a trap or it could open your path to freedom. ',
+  text: 'You arrive in a brightly lit room. The high wall in front of you is decorated only by a single window. A torch is hung on the wall still burning bright. You could take that with you and it would help you follow the path should it go dark. You see an old chest. The lock is so worn you can easily open it. It might be worth looking at what is inside. Chests always have good loot after all. You see a lever that you could pull, but it might set off a trap, or it could open your path to freedom.',
   image: 'https://drive.google.com/uc?export=view&id=1flTub35yMfrU7nFv20LZOsp17tFubXgd', 
   choices: [
     { text: 'Open The Chest', nextId: 8 },
@@ -74,7 +74,7 @@ export const scenarios = [
 
 {
   id: 6,
-  text: 'Ok you might not have read the first note, but if you did great! I hope you liked my poem, and if you did not fully get it just go left. I am a previous explorer who went right and got trapped in the dungeon for eternity. Trust me you want to go left, not right. I want to help you, but you have to heed my advice. Do not make the same mistake I did and be free. I want to help you get out and reading my notes will be your key to getting out. I hope you will do it anyways but it is up to you.',
+  text: 'You pull the note from its hiding place behind the rock and read it "I sure hope you are not reading this note. That would be awkward.',
   image: 'https://drive.google.com/uc?export=view&id=1flTub35yMfrU7nFv20LZOsp17tFubXgd', 
   choices: [
     { text: 'Open The Chest', nextId: 8 },
@@ -127,7 +127,7 @@ choices: [
 
   {
     id: 10,
-    text: 'You duck under the portcullis and the points of it poke you wanting to hurt you. For a second you think the dungeon might be trying to kill you, but that is silly magic does not exist and neither do dungeons that are alive. You walk out on the other side as the portcullis shuts behind you, your eyes adjusting in the light as the brightness overwhelms you. It feels smothering and you want to flee, but you get used to it as your eyes adjust. To your right a stairway leads up while a stairway going down is on the left. Which path will you choose?',
+    text: 'You duck under the portcullis and its points dig into your skin, as if the dungeon itself wants to hurt you. For a second you think the dungeon might be trying to kill you, but that is silly –  magic does not exist and neither do dungeons that are alive. You walk out on the other side, your eyes adjusting in the light as the brightness overwhelms you. It feels smothering and you want to flee, but you get used to it as your eyes adjust. To your right a stairway leads up, while a stairway going down is on the left. You also see a note just like in the first room and it is brand new even though this dungeon is very old. Which path will you choose?',
     image: 'https://drive.google.com/uc?export=view&id=1qUZv3VSWv0SzrgTJtDGCoDo7BnVYG4qL', 
     choices: [
       { text: 'Go left', nextId: 21 },
@@ -138,7 +138,7 @@ choices: [
 
   {
     id: 11,
-    text: '*Note Text Here*',
+    text: 'Ok you might not have read the first note, but if you did, great! I hope you liked my poem, and if you did not fully get it, just go left. I am a previous explorer who went right and got trapped in the dungeon for eternity. Trust me, you want to go left, not right. I want to help you, but you have to heed my advice. Do not make the same mistake I did so you can be free. I want to help you get out, and reading my notes will be your key to getting out. I hope you will trust me, but it is up to you.',
     image: 'https://drive.google.com/uc?export=view&id=1qUZv3VSWv0SzrgTJtDGCoDo7BnVYG4qL', 
     choices: [
       { text: 'Go left', nextId: 21 },
@@ -149,7 +149,7 @@ choices: [
 
   {
     id: 12,
-    text: 'You walk down the right path and the floor beneath you gets steeper. This must be the way out you think hopefully, but you cant be entirely sure. You arrive in a small room with some bones of animals from outside. You see a small bone on the ground that is decently sharp. It could be a good weapon or lock pick you think, might be a useful thing to have. You see a shiny stone on the ground that could make a good tool for distraction later you think. On the wall just bare cobblestones you notice a bright picture frame with another note inside it. You could read the note as it is strange. The note gleams in the light with new fresh paper and the black ink glistens with the note. Reading the note might be a good idea, but you just don’t feel like that is a good option. What will you do?',
+    text: 'You walk down the right path, and the floor beneath you gets steeper. This must be the way out, you think hopefully, but you can not be entirely sure. You arrive in a small room with some bones of animals from outside. You see a small bone on the ground that is decently sharp. It could be a good weapon or lock pick, you think. It might be a useful thing to have. You see a shiny stone on the ground that could make a good tool for distraction later, you think. On the wall, made up of bare cobblestones, you notice a bright picture frame with another note inside it. You could read the note, as it is strange. The note gleams in the light with new fresh paper and the black ink glistens with the note. Reading the note might be a good idea, but you just do not feel like that is a good option. What will you do?',
     image: 'https://drive.google.com/uc?export=view&id=1QqH_5y6-4wuno5pyfbvC5glhuzHS6iVz', 
     choices: [
       { text: 'Keep Going', nextId: 16 },
@@ -160,7 +160,7 @@ choices: [
 
   {
     id: 13,
-    text: 'Inside the strangely intact picture frame you make out the writing on the note."Why did you go down the right path? After all I told you really! You probably never read the other notes did you? Well it is fine you are reading this so I still have a chance to show you the right way. I am an explorer who got trapped in here by going down the path you are on right now. I could not turn left once I went down this path, so please don’t make my mistake. I impart this knowledge to you, intrepid adventurer, so you may be free and get to see the sun and sky again."',
+    text: 'Inside the strangely intact picture frame you make out the writing on the note."Why did you go down the right path? After all I told you, really? You probably never read the other notes did you? Well it is fine; you are reading this, so I still have a chance to show you the right way. I am an explorer who got trapped in here by going down the path you are on right now. I could not turn left once I went down this path, so please don’t make my mistake. I impart this knowledge to you, intrepid adventurer, so you may be free and get to see the sun and sky again."',
     image: 'https://drive.google.com/uc?export=view&id=1QqH_5y6-4wuno5pyfbvC5glhuzHS6iVz', 
     choices: [
       { text: 'Keep Going', nextId: 16 },
@@ -192,7 +192,7 @@ choices: [
 
   {
     id: 16,
-    text: 'You follow along the path climbing higher and higher. It feels like you are getting out of the dungeon but it could still be a trap. You come to a bare room with some rubble on the ground. An old chain on the floor broken, but you might be able to use it. You see another note on the wall just like in the room before. You see a skull on the ground probably from another adventure who did not make it. Some bones are on top of the framed note which is still new and fresh just like all the other ones. You could read it, but you feel like you are close to escaping. The note could contain some valuable information though. What will you do?',
+    text: 'You follow along the path climbing higher and higher. It feels like you are getting out of the dungeon but it could still be a trap. You come to a bare room with some rubble on the ground. There is an old broken chain on the floor, but you might be able to use it. You see another note on the wall just like in the room before. You see a skull on the ground, probably from another adventurer who did not make it. Some bones are on top of the framed note which is still new and fresh just like all the other ones. You could read it, but you feel like you are close to escaping. The note could contain some valuable information though. What will you do?',
     image: 'https://drive.google.com/uc?export=view&id=1Nh59SrU7T9KT5OkjCeseBRD6Ld-d_ael', 
     choices: [
       { text: 'Check the Note', nextId: 17 },
@@ -203,7 +203,7 @@ choices: [
 
   {
     id: 17,
-    text: 'The note is scrawled in messy handwriting, almost like it was written in a hurry. "You are way too close now. Your doom lies before you in fact in the next room. You should have gone left. That was your only way out of this place. You made the same mistake I did and you will sadly soon be joining me. I am only telling you this for your benefit so you can escape too. Please head my warnings but if you insist on going this way I will not stop you. I will remind you, you have chose poorly and I can not express my disappointment. Why did you not listen to me? I was trying to help you, to guide you, to help you succeed where I failed. Fine I guess it does not matter as you have free will, but you should have followed my advice. CERTAIN DOOM AWAITS YOU. DO NOT CONTINUE DOWN THIS PATH!!! "',
+    text: 'The note is scrawled in messy handwriting, almost like it was written in a hurry. "You are way too close now. Your doom lies before you, in fact, in the next room. You should have gone left. That was your only way out of this place. You made the same mistake I did and you will sadly soon be joining me. I am only telling you this for your benefit so you can escape too. Please heed my warnings, but if you insist on going this way I will not stop you. I will remind you you have chosen poorly, and I can not express my disappointment. Why did you not listen to me? I was trying to help you, to guide you, to help you succeed where I failed. Fine, I guess it does not matter as you have free will, but you should have followed my advice. CERTAIN DOOM AWAITS YOU. DO NOT CONTINUE DOWN THIS PATH!!! "',
     image: 'https://drive.google.com/uc?export=view&id=1Nh59SrU7T9KT5OkjCeseBRD6Ld-d_ael', 
     choices: [
       { text: 'Keep On Climbing', nextId: 19 },
@@ -223,7 +223,7 @@ choices: [
 
   {
     id: 19,
-    text: 'You walk into the hallway of the next room. A hall awaits you. You climb up a steep slope for what feels like eternity and then you see cool blue light shining through the top of the hole. Just a little bit more and you are there! You made it out! You see a book below you and you decide to read it. It tells you that the dungeon is cursed and it will trap anyone who sails too close to it. The only way to subdue the curse is to stay in the duenon and sacrifice yourself. That does not matter to you as you are glad to feel the fresh air. You see your wrecked ship scattered across the shore. There is enough that you could repair it with time and eventually sail back home. A few days later you sail away on your repaired boat and make it home. The End. ',
+    text: 'You walk into the hallway of the next room. A hall awaits you. You climb up a steep slope for what feels like eternity and then you see cool blue light shining through the top of the hole. Just a little bit more and you are there! You made it out! You see a book below you and you decide to read it. It tells you that the dungeon is cursed and it will trap anyone who sails too close to it. The only way to subdue the curse is to stay in the dungeon and sacrifice yourself. That does not matter to you, as you are glad to feel the fresh air. You see your wrecked ship scattered across the shore. There is enough that you could repair it with time and eventually sail back home. A few days later you sail away on your repaired boat and make it home. The End.',
     image: 'https://drive.google.com/uc?export=view&id=1HRHlyYGa2BscYcs_XXHInSETnsPTrHtC', 
     choices: [
       { text: 'Continue', nextId: 20}
@@ -241,7 +241,7 @@ choices: [
 
   {
     id: 21,
-    text: 'You enter a well lit dining hall, as you step into the room a large stone gate slides into place behind you, blocking your exit. A nice roaring fire in the hearth. It is an ornate room with a high ceiling and a glittering chandelier. The chairs are rich dark mahogany and the table is a dark spruce rimmed with gold. The plates and glasses are a sparkling crystal. A feast with all kinds of delectable foods is on the table simmering and steaming in the light. Meats, vegetables, and every kind of food is there a pure delight for the eyes. It all looks very appetizing and eating might be a good idea to strengthen yourself for the journey. You see an exit from the room that you could leave, but another thing piques your interest. You see a bookshelf filled with curiously the same purple book. You pull one off and you read the cover in bright gold embossed letters “The cursed isle and dungeon”. It might be prudent to read more, or you could just go on and not care about the book. What will you do?  ',
+    text: 'You enter a well-lit dining hall with a nice roaring fire in the hearth. It is an ornate room with a high ceiling and a glittering chandelier. The chairs are rich dark mahogany and the table is a dark spruce rimmed with gold. The plates and glasses are a sparkling crystal. A feast with all kinds of delectable foods is on the table, simmering and steaming in the light. Meats, vegetables, and every kind of food is there, a pure delight for the eyes. It all looks very appetizing, and eating might be a good idea to strengthen yourself for the journey. You see an exit from the room that you could use to escape, but another thing piques your interest. You see a bookshelf curiously filled with many copies of the same purple book. You pull one off the shelf and you read the cover in bright gold embossed letters: “The cursed isle and dungeon.” It might be prudent to read more, or you could just go on and not care about the book. What will you do?',
     image: 'https://drive.google.com/uc?export=view&id=13TKTA7XXmHDSG6B7J5Rwy7_Y_oc4Kmwx', 
     choices: [
       { text: 'Eat The Food', nextId: 22 },
@@ -274,7 +274,7 @@ choices: [
 
   {
     id: 24,
-    text: 'The hall dips down and you find yourself in a bare and dark room. The ceiling is low and the walls compress the space making you feel small. The walls are windowless and the only light is behind you. Your shadow looms large in the light spilling from the door. An old spear is leaning up against the wall holding onto its own existence. A small table with a note similar to the first is on the right. The note is also as fresh as the first one, but the dungeon is much older than that or so it appears. Lying next to the note is a tattered and worn thread that might be useful to you. You also see the same book but it is filled with many more pages that might give you more backstory. What do you do? ',
+    text: 'The hall dips down and you find yourself in a bare and dark room. The ceiling is low and the walls compress the space making you feel claustrophobic. The walls are windowless and the only light is behind you. Your shadow looms large in the light spilling from the door. An decrepit old spear is leaning up against the wall, barely holding onto its own existence. A small table with a note similar to the first is on the right. The note is also as fresh as the very first one at the start of the dungeon, but the dungeon is much older than that, or so it appears. Lying next to the note is a tattered and worn thread that might be useful to you. You also see the same purple book but it is filled with many more pages that might give you more backstory. What do you do?',
     image: 'https://drive.google.com/uc?export=view&id=13TKTA7XXmHDSG6B7J5Rwy7_Y_oc4Kmwx', 
     choices: [
       { text: 'Read The Note', nextId: 25 },
@@ -286,7 +286,7 @@ choices: [
 
   {
     id: 25,
-    text: 'Good you actually followed my advice. You would be surprised at how many people do not even read these things. Anyway I will be your personal guide to get you out of here. It just feels so nice to have someone finally listen to me. No one ever does all they do is pick a path. No one ever bothers to read these notes or follow my guidance of just going forward. Speaking of that That is what I want you to do, just keep going forward. An exit is very close to you, just hang on a little longer and you will be out in no time, I promise.',
+    text: 'Good, you actually followed my advice. You would be surprised at how many people do not even read these things. Anyway, I will be your personal guide to get you out of here. It just feels so nice to have someone finally listen to me. No one ever does; all they do is pick a path. No one ever bothers to read these notes or follow my guidance of just going left. Speaking of that: that is what I want you to do, just keep going forward. An exit is very close to you, just hang on a little longer and you will be out in no time, I promise.',
     image: 'https://drive.google.com/uc?export=view&id=13TKTA7XXmHDSG6B7J5Rwy7_Y_oc4Kmwx', 
     choices: [
       { text: 'Reread The Note', nextId: 25 },
@@ -321,7 +321,7 @@ choices: [
 
   {
     id: 28,
-    text: 'You walk into a very dark and dim room. The only light comes from a red gem gleaming in the center of the room. The room has cobblestone walls with strange runes carved into them. Looking down you see a ritual circle that probably involves the red crystal. You could touch it and take it. You are the only one in the dungeon and perhaps it will give you the power to escape. You see the same book lying open to a page filled with instructions to conduct the ritual. You could do it if you want and see what happens, but everything feels wrong. No dungeon you have seen or read about it has this kind of creepy crystal and ritual room in it. Beside the book there is another note exactly like the prior two. You could read it and see what it tells you to do. You could also walk around all of it and proceed on to the next room. What will you choose now?',
+    text: 'You walk into a very dark and dim room. The only light comes from a red gem gleaming in the center of the room. The room has cobblestone walls with strange runes carved into them. Looking down you see a ritual circle that probably involves the red crystal. You could touch it and take it. You are the only one in the dungeon and perhaps it will give you the power to escape. You see the same purple book lying open to a page filled with instructions to conduct the ritual. You could do it if you want and see what happens, but everything feels wrong. No dungeon you have seen or read about has this kind of creepy crystal and ritual room in it. Beside the book there is another note exactly like the prior two. You could read it and see what it tells you to do. You could also walk around all of it and proceed on to the next room. What will you choose now?',
     image: 'https://drive.google.com/uc?export=view&id=13TKTA7XXmHDSG6B7J5Rwy7_Y_oc4Kmwx', 
     choices: [
       { text: 'Read the Note', nextId: 29 },
@@ -331,7 +331,7 @@ choices: [
 
   {
     id: 29,
-    text: 'Wow you really fell for this? Or were you planning to sacrifice yourself? Just how many times have you been through here? Oh well, it does not matter anyway as you are trapped now. Go on ahead into the next room. You will really know that you are trapped then. At least I have someone else to read these things. I hope you enjoy this curse. I haven’t had a companion in a long time. Maybe you can help me make these more convincing for the next person so they can be trapped with us. That sounds great and you don’t have much of a choice aside from wandering the dungeon so you really should help me. Anyway, enjoy being stuck here have fun!',
+    text: 'Wow, you really fell for this? Or were you planning to sacrifice yourself? Just how many times have you been through here? Oh well, it does not matter anyway as you are trapped now. Go on ahead into the next room. You will really know that you are trapped then. At least I have someone else to read these things. I hope you enjoy this curse. I haven’t had a companion in a long time. Maybe you can help me make these more convincing for the next person so they can be trapped with us. That sounds great and you don’t have much of a choice aside from wandering the dungeon so you really should help me. Anyway, enjoy being stuck here, have fun!',
     image: 'https://drive.google.com/uc?export=view&id=13TKTA7XXmHDSG6B7J5Rwy7_Y_oc4Kmwx', 
     choices: [
       { text: 'Touch The Crystal', nextId: 30 },
@@ -350,7 +350,7 @@ choices: [
 
   {
     id: 31,
-    text: 'YYou are now trapped in the dungeon. This room is a simple dead end and palin and it is meant to be forgotten. It is so boring your mind is about to explode with boredom. The only way is back, but you can see through a small window that the left path has been blocked off. You will never get out. There is no escape from this. Your final days will be spent rotting in the dungeon until you become one of the skeletons lining the walls in the prior rooms. Things could have been different though. What if you had chosen a different path perhaps picked up a different item in one of the rooms. You might have had a chance or you might have always been doomed to fail. We all only get one chance after all no one can restart the game or can you?',
+    text: 'You are now trapped in the dungeon. This room is a simple dead end. It is so unremarkable that it feels like it should be forgotten. It is so boring your mind is about to explode with boredom. The only way is back, but you can see through a small window that the right path has been blocked off. You will never get out. There is no escape from this. Your final days will be spent rotting in the dungeon until you become one of the skeletons lining the walls in the prior rooms. Things could have been different though. What if you had chosen a different path, perhaps picked up a different item in one of the rooms? You might have had a chance or you might have always been doomed to fail. We all only get one chance, after all, no one can restart the game, or can you?',
     image: 'https://drive.google.com/uc?export=view&id=13TKTA7XXmHDSG6B7J5Rwy7_Y_oc4Kmwx', 
     choices: [
       { text: 'Continue', nextId: 20 },
