@@ -71,7 +71,7 @@ export const scenarios = [
 
 {
   id: 6,
-  text: 'You pull the note from its hiding place behind the rock and read it "I sure hope you are not reading this note. That would be awkward.',
+  text: 'You pull the note from its hiding place behind the rock and read it "I sure hope you are not reading this note. That would be awkward."',
   image: 'https://drive.google.com/uc?export=view&id=1flTub35yMfrU7nFv20LZOsp17tFubXgd', 
   choices: [
     { text: 'Open The Chest', nextId: 8 },
