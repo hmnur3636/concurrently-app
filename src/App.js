@@ -11,11 +11,11 @@ function App() {
     .then ((data) => setUsers(data));
 }, []);
 
-
   return ( 
   <div className="App">   
   <header className="App-header">
   <div id="img-div" class="image-housing">
+main
     <h1>Game Name</h1>
     <img id="image" class="center" 
     src="https://drive.google.com/uc?
@@ -41,7 +41,7 @@ function App() {
         <button type="button" class="btn btn-option3">Option 3</button>
         <button type="button" class="btn btn-option4">Option 4</button>
         </div>
-  </div>
+    </div>
   </header>
     </div>
     )
