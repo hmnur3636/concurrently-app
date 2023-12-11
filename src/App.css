@@ -8,6 +8,7 @@ img{
   width: 400px;
   background-color: aliceblue;
   margin-top: 2.5px;
+  margin-bottom: 2.5px;
 }
 
 .p{
@@ -38,7 +39,7 @@ background-color: black;
   min-width: 70%;
   background-color: rgb(30, 30, 30);
   border-radius: 7px;
-  height: 400px;
+  height: 405px;
 }
 
 .container {
@@ -50,8 +51,8 @@ background-color: black;
     padding-top: 10px;
     overflow-y: auto;
     margin-top: 7px;
-    max-height: 160px;
-    min-height: 160px;
+    max-height: 155px;
+    min-height: 155px;
 }
 
 .btn-grid {

@@ -217,17 +217,19 @@ choices: [
 
   {
     id: 19,
-    text: 'You walk into the hallway of the next room. A hall awaits you. You climb up a steep slope for what feels like eternity and then you see cool blue light shining through the top of the hole. Just a little bit more and you are there! You made it out! You see a book below you and you decide to read it. It tells you that the dungeon is cursed and it will trap anyone who sails too close to it. The only way to subdue the curse is to stay in the dungeon and sacrifice yourself. That does not matter to you, as you are glad to feel the fresh air. You see your wrecked ship scattered across the shore. There is enough that you could repair it with time and eventually sail back home. A few days later you sail away on your repaired boat and make it home. The End.',
-    image: 'https://drive.google.com/uc?export=view&id=1HRHlyYGa2BscYcs_XXHInSETnsPTrHtC', 
+    text: 'You walk into the hallway of the next room. A hall awaits you. You climb up a steep slope for what feels like eternity and then you see cool blue light shining through the top of the hole. Just a little bit more and you are there! But a large iron gate lies between you and what looks to be freedom. A lever sits next to the gate and a note rests inside of a picture frame that seems to have been smashed in a rage.',
+    image: 'https://drive.google.com/uc?export=view&id=168VSr2TVDqZKQYRfYUlk87SLGgdLohBx', 
     choices: [
-      { text: 'Continue', nextId: 20}
+      { text: 'Pull The Lever', nextId: 32},
+      { text: 'Read The Note', nextId: 33},
+      { text: 'Go Back', nextId: 18}
   ]
   },
 
   {
     id: 20,
     text: 'Thank you For Playing Our Game! Hopefully You Did Better Than We Did On Our Grade On This Project.',
-    image: 'https://drive.google.com/uc?export=view&id=1iHBgnIvVsgUR85cbEm4_RdjDy0YKMekf', 
+    image: 'https://drive.google.com/uc?export=view&id=1WcguS0Eddd1cuQZo0YvjNOcYKxRyaSHu', 
     choices: [
       { text: 'Play Again?', nextId: 0}
   ]
@@ -236,7 +238,7 @@ choices: [
   {
     id: 21,
     text: 'You enter a well-lit dining hall with a nice roaring fire in the hearth. It is an ornate room with a high ceiling and a glittering chandelier. The chairs are rich dark mahogany and the table is a dark spruce rimmed with gold. The plates and glasses are a sparkling crystal. A feast with all kinds of delectable foods is on the table, simmering and steaming in the light. Meats, vegetables, and every kind of food is there, a pure delight for the eyes. It all looks very appetizing, and eating might be a good idea to strengthen yourself for the journey. You see an exit from the room that you could use to escape, but another thing piques your interest. You see a bookshelf curiously filled with many copies of the same purple book. You pull one off the shelf and you read the cover in bright gold embossed letters: “The cursed isle and dungeon.” It might be prudent to read more, or you could just go on and not care about the book. What will you do?',
-    image: 'https://drive.google.com/uc?export=view&id=13TKTA7XXmHDSG6B7J5Rwy7_Y_oc4Kmwx', 
+    image: 'https://drive.google.com/uc?export=view&id=13TKTA7XXmHDSG6B7J5Rwy7_Y_oc4Kmwx', /*ROOM 7 HERE*/
     choices: [
       { text: 'Eat The Food', nextId: 22 },
       { text: 'Read More', nextId: 23 },
@@ -247,7 +249,7 @@ choices: [
   {
     id: 22,
     text: 'You take a piece of food off the table, and take a bite. As it enters your mouth the pristine scruptious looking food turns into dust in your mouth, leaving you with a bad taste in your mouth and an empty stomach.',
-    image: 'https://drive.google.com/uc?export=view&id=13TKTA7XXmHDSG6B7J5Rwy7_Y_oc4Kmwx', 
+    image: 'https://drive.google.com/uc?export=view&id=13TKTA7XXmHDSG6B7J5Rwy7_Y_oc4Kmwx', /*ROOM 7 HERE*/
     choices: [
       { text: 'Read More', nextId: 23 },
       { text: 'Move On To The Next Room', nextId: 24 },
@@ -257,7 +259,7 @@ choices: [
   {
     id: 23,
     text: 'You crack open one of the books on the shelf and flip through it. On every single page it reads, "Bro its a curse, that is all you need to know. ',
-    image: 'https://drive.google.com/uc?export=view&id=13TKTA7XXmHDSG6B7J5Rwy7_Y_oc4Kmwx', 
+    image: 'https://drive.google.com/uc?export=view&id=13TKTA7XXmHDSG6B7J5Rwy7_Y_oc4Kmwx', /*ROOM 7 HERE*/
     choices: [
       { text: 'Eat The food', nextId: 22 },
       { text: 'Move On To The Next Room', nextId: 24 },
@@ -267,7 +269,7 @@ choices: [
   {
     id: 24,
     text: 'The hall dips down and you find yourself in a bare and dark room. The ceiling is low and the walls compress the space making you feel claustrophobic. The walls are windowless and the only light is behind you. Your shadow looms large in the light spilling from the door. An decrepit old spear is leaning up against the wall, barely holding onto its own existence. A small table with a note similar to the first is on the right. The note is also as fresh as the very first one at the start of the dungeon, but the dungeon is much older than that, or so it appears. Lying next to the note is a tattered and worn thread that might be useful to you. You also see the same purple book but it is filled with many more pages that might give you more backstory. What do you do?',
-    image: 'https://drive.google.com/uc?export=view&id=13TKTA7XXmHDSG6B7J5Rwy7_Y_oc4Kmwx', 
+    image: 'https://drive.google.com/uc?export=view&id=13TKTA7XXmHDSG6B7J5Rwy7_Y_oc4Kmwx', /*ROOM 8 HERE*/
     choices: [
       { text: 'Read The Note', nextId: 25 },
       { text: 'Read The Book', nextId: 26 },
@@ -279,7 +281,7 @@ choices: [
   {
     id: 25,
     text: 'Good, you actually followed my advice. You would be surprised at how many people do not even read these things. Anyway, I will be your personal guide to get you out of here. It just feels so nice to have someone finally listen to me. No one ever does; all they do is pick a path. No one ever bothers to read these notes or follow my guidance of just going left. Speaking of that: that is what I want you to do, just keep going forward. An exit is very close to you, just hang on a little longer and you will be out in no time, I promise.',
-    image: 'https://drive.google.com/uc?export=view&id=13TKTA7XXmHDSG6B7J5Rwy7_Y_oc4Kmwx', 
+    image: 'https://drive.google.com/uc?export=view&id=13TKTA7XXmHDSG6B7J5Rwy7_Y_oc4Kmwx', /*ROOM 8 HERE*/
     choices: [
       { text: 'Read The Book', nextId: 26 },
       { text: 'Move On To The Next Room', nextId: 28 },
@@ -289,8 +291,8 @@ choices: [
 
   {
     id: 26,
-    text: '*Book Text Here*',
-    image: 'https://drive.google.com/uc?export=view&id=13TKTA7XXmHDSG6B7J5Rwy7_Y_oc4Kmwx', 
+    text: 'You open the book and you see a table of contents. It reads “Part 1: the curse of the island, Part two: an adventures guide to the dungeon, Part three: The voice of the dungeon, and so on.” The book goes on and stops at part 100:, but you see a small TLDR chapter at the bottom. You might have missed it had you not been paying attention and you decide to read it rather than the 100 parts. It reads “The dungeon is cursed and the voice of the dungeon wants it that way. It has paced the answers on this path so you must fail to attain the truth. The only way to stop this curse is to sacrifice yourself and stay in this dungeon. If you do, you will be trapped, but no one will have to suffer from this. The choice is yours, friend. I only want to help you.” ',
+    image: 'https://drive.google.com/uc?export=view&id=13TKTA7XXmHDSG6B7J5Rwy7_Y_oc4Kmwx', /*ROOM 8 HERE*/
     choices: [
       { text: 'Read The Note', nextId: 25 },
       { text: 'Move On To The Next Room', nextId: 28 },
@@ -301,7 +303,7 @@ choices: [
   {
     id: 27,
     text: 'You return back to the last room, the food still gleams on the table, but the doorway back to the rest of the dungeon is block by the heavy iron door. ',
-    image: 'https://drive.google.com/uc?export=view&id=13TKTA7XXmHDSG6B7J5Rwy7_Y_oc4Kmwx', 
+    image: 'https://drive.google.com/uc?export=view&id=13TKTA7XXmHDSG6B7J5Rwy7_Y_oc4Kmwx', /*ROOM 7 HERE*/
     choices: [
       { text: 'Eat The Food', nextId: 22 },
       { text: 'Read More', nextId: 23 },
@@ -312,7 +314,7 @@ choices: [
   {
     id: 28,
     text: 'You walk into a very dark and dim room. The only light comes from a red gem gleaming in the center of the room. The room has cobblestone walls with strange runes carved into them. Looking down you see a ritual circle that probably involves the red crystal. You could touch it and take it. You are the only one in the dungeon and perhaps it will give you the power to escape. You see the same purple book lying open to a page filled with instructions to conduct the ritual. You could do it if you want and see what happens, but everything feels wrong. No dungeon you have seen or read about has this kind of creepy crystal and ritual room in it. Beside the book there is another note exactly like the prior two. You could read it and see what it tells you to do. You could also walk around all of it and proceed on to the next room. What will you choose now?',
-    image: 'https://drive.google.com/uc?export=view&id=13TKTA7XXmHDSG6B7J5Rwy7_Y_oc4Kmwx', 
+    image: 'https://drive.google.com/uc?export=view&id=13TKTA7XXmHDSG6B7J5Rwy7_Y_oc4Kmwx', /*ROOM 9 HERE*/
     choices: [
       { text: 'Read the Note', nextId: 29 },
       { text: 'Move on', nextId: 31 },
@@ -322,7 +324,7 @@ choices: [
   {
     id: 29,
     text: 'Wow, you really fell for this? Or were you planning to sacrifice yourself? Just how many times have you been through here? Oh well, it does not matter anyway as you are trapped now. Go on ahead into the next room. You will really know that you are trapped then. At least I have someone else to read these things. I hope you enjoy this curse. I haven’t had a companion in a long time. Maybe you can help me make these more convincing for the next person so they can be trapped with us. That sounds great and you don’t have much of a choice aside from wandering the dungeon so you really should help me. Anyway, enjoy being stuck here, have fun!',
-    image: 'https://drive.google.com/uc?export=view&id=13TKTA7XXmHDSG6B7J5Rwy7_Y_oc4Kmwx', 
+    image: 'https://drive.google.com/uc?export=view&id=13TKTA7XXmHDSG6B7J5Rwy7_Y_oc4Kmwx', /*ROOM 9 HERE*/
     choices: [
       { text: 'Touch The Crystal', nextId: 30 },
       { text: 'Move on', nextId: 31 },
@@ -332,7 +334,7 @@ choices: [
   {
     id: 30,
     text: 'You reject the note, it can not be true, you are not stuck here. You will take the power of the crystal and escape. Your finger touches the bright crystal and a red light fills your vision. A small pile of soot falls to the ground, all that is left of you. The End.',
-    image: 'https://drive.google.com/uc?export=view&id=13TKTA7XXmHDSG6B7J5Rwy7_Y_oc4Kmwx', 
+    image: 'https://drive.google.com/uc?export=view&id=13TKTA7XXmHDSG6B7J5Rwy7_Y_oc4Kmwx', /*ROOM 10 HERE*/
     choices: [
       { text: 'Continue', nextId: 20 },
   ]
@@ -344,6 +346,44 @@ choices: [
     image: 'https://drive.google.com/uc?export=view&id=13TKTA7XXmHDSG6B7J5Rwy7_Y_oc4Kmwx', 
     choices: [
       { text: 'Continue', nextId: 20 },
+  ]
+  },
+
+  {
+    id: 32,
+    text: ' The large iron gate creaks open, the metal screeching from lack of use. The opening lays in front of you, and you hesitate. This is your last chance, should you listen to the notes? Should you try to find out what is going on here? You take a breath and make your choice.',
+    image: 'https://drive.google.com/uc?export=view&id=168VSr2TVDqZKQYRfYUlk87SLGgdLohBx', 
+    choices: [
+      { text: 'Leave The Dungeon', nextId: 34},
+      { text: 'Turn Around', nextId: 18}
+  ]
+  },
+
+  {
+    id: 33,
+    text: '"Fine, I guess it does not matter as you have free will, but you should have followed my advice. CERTAIN DOOM AWAITS YOU. DO NOT CONTINUE DOWN THIS PATH!!! "',
+    image: 'https://drive.google.com/uc?export=view&id=168VSr2TVDqZKQYRfYUlk87SLGgdLohBx', 
+    choices: [
+      { text: 'Pull The Lever', nextId: 32},
+      { text: 'Go Back', nextId: 18}
+  ]
+  },
+
+  {
+    id: 34,
+    text: 'You made it out! The large iron gate slams shut behind you, sealing the dungeon and everything inside. You see a book below you and you decide to read it. It tells you that the dungeon is cursed and it will trap anyone who sails too close to it. The only way to subdue the curse is to stay in the dungeon and sacrifice yourself. That does not matter to you, as you are glad to feel the fresh air. ',
+    image: 'https://drive.google.com/uc?export=view&id=1W_ZbQLoFkaVYdz_GWyrvoUnHWuSgpwWW', 
+    choices: [
+      { text: 'Continue', nextId: 35},
+  ]
+  },
+
+  {
+    id: 35,
+    text: 'You see your wrecked ship scattered across the shore. There is enough that you could repair it with time and eventually sail back home. A few days later you sail away on your repaired boat and make it home. The End.',
+    image: 'https://drive.google.com/uc?export=view&id=1HRHlyYGa2BscYcs_XXHInSETnsPTrHtC', 
+    choices: [
+      { text: 'Continue', nextId: 20},
   ]
   },
 
