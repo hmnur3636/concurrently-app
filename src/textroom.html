@@ -1,20 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"content="width=device-width, initial-scale=1.0">
-    <title>Room 1</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="container">
-        <div id="text">Textbox</div>
-        <div id="button-options" class="btn-grid">
-        <button type="button" class="btn btn-option1">Option 1</button>
-        <button type="button" class="btn btn-option2">Option 2</button>
-        <button type="button" class="btn btn-option3">Option 3</button>
-        <button type="button" class="btn btn-option4">Option 4</button>
-        </div>
+
+<header>
+<meta charset="UTF-8"></meta>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+<link rel="stylesheet" href="App.css"></link>
+</header>
+
+<div className="App">
+<main className="App-header">
+<h2>Developing Dungeon</h2>
+<div className="Background-Screen">
+  <div id="img-div" className="image-housing">
+  <img id="image" className="center" src="https://drive.google.com/uc?export=view&id=1bDdoLrKDvqQ8q3-mUG8ke1UQgH88D0FO" alt="Dungeon room 1"></img>
     </div>
-  </body>
+</div>
+<div className="container">
+<div id="text">
+        <div id="story"></div>
+        <div id="button-options" class="btn-grid">
+            <button class="choice-btn" onclick="nextDialogue(0)">Option 1</button>
+            <button class="choice-btn" onclick="nextDialogue(1)">Option 2</button>
+            <button class="choice-btn" onclick="nextDialogue(2)">Option 3</button>
+            <button class="choice-btn" onclick="nextDialogue(3)">Option 4</button>
+    </div>
+
+<script src="Script.js"></script>
+</div>
+
+</div>
+</main>
+</div>
 </html>

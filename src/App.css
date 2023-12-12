@@ -1,32 +1,58 @@
-
 .App {
   text-align: center;
+  max-height: 1vh;
+  background-color: black;
 }
 img{
-  transform: scale(0.5);
-  position: relative;
-  top: -350px;
+  height: 400px;
+  width: 400px;
   background-color: aliceblue;
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
 }
+
+.p{
+font-size: 10%;
+margin-top: -100px;
+}
+
+.head{
+  padding: 0px;
+background-color: black;
+}
+
+.h2{
+  padding-top: 100px;
+  margin: 0;
+}
+
 .App-header {
   background-color: black;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: calc(10px + 2vmin);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'copperplate gothic';
   color: rgb(232, 253, 235);
-  /* background-image: url(‘https://drive.google.com/uc?export=view&id=1bDdoLrKDvqQ8q3-mUG8ke1UQgH88D0FO’);
-  background-repeat: no-repeat; */
 }
+
+.Background-Screen{
+  min-width: 70%;
+  background-color: rgb(30, 30, 30);
+  border-radius: 7px;
+  height: 405px;
+}
+
 .container {
-    width: 1000px;
-    max-width: 80%;
+
+    min-width: 70%;
+    max-width: 70%;
     background-color: rgb(56, 68, 59);
-    padding: 10px;
-    border-radius: 5px;
-    margin-top: -700px;
+    border-radius: 7px;
+    padding-top: 10px;
+    overflow-y: auto;
+    margin-top: 7px;
+    max-height: 157.5px;
+    min-height: 157.5px;
 }
 
 .btn-grid {
@@ -47,4 +73,7 @@ img{
 .btn:hover{
 border-color: black;
 } 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 96678330190a0cddecf5fad4c811d23aa2cbde4f

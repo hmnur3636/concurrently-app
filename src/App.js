@@ -1,18 +1,19 @@
-import { useEffect, useState } from "react";
-import "./App.css";
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import './App.css';
+import { scenarios } from './Script';
 
 function App() {
-  const [users, setUsers] = useState ([]);
+  const [currentScenario, setCurrentScenario] = useState(scenarios[0]);
 
-  useEffect(() => {
-    fetch('/api/users')
-    .then((res) => res.json())
-    .then ((data) => setUsers(data));
-}, []);
+  const handleChoice = (nextScenarioId) => {
+    const nextScenario = scenarios.find(scenario => scenario.id === nextScenarioId);
+    setCurrentScenario(nextScenario);
+  };
 
-  return ( 
-  <div className="App">   
+  return (
+    
+    <div className="App">
+      
   <header className="App-header">
   <div id="img-div" class="image-housing">
 main
@@ -41,11 +42,10 @@ main
         <button type="button" class="btn btn-option3">Option 3</button>
         <button type="button" class="btn btn-option4">Option 4</button>
         </div>
-    </div>
+
   </header>
     </div>
-    )
-};
-
+  );
+}
 
 export default App;
